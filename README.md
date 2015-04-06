@@ -17,7 +17,7 @@
 <ul>
 <li>Написать interface <code>Quoter</code> с методом <code>sayQuote</code> и 2 реализации</li>
 <li><code>ShakespearQuoter</code> (c property message) and <code>TerminatorQuoter</code> (messages)</li>
-<li>По вызову метода <code>sayQuote()<code> они печатаю все сообщения</li>
+<li>По вызову метода <code>sayQuote()</code> они печатаю все сообщения</li>
 <li>Прописать их как бины в контексте и впрыснуть в xml-e им сообщения</li>
 <li>Протестировать
   <ul>
@@ -52,7 +52,7 @@
 ###### Задание№6
 <ul>
 <li>Напишите <code>BeanPostProcessor</code> который будет искать кастомную аннотацию <code>@InjectRandomInt</code></li>
-<li>У этой аннотации будут параметры min & max</li>
+<li>У этой аннотации будут параметры <code>min</code> & <code>max</code></li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task6/)
 ###### Задание№7
@@ -67,7 +67,7 @@
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task8/)
 ###### Задание№9
 <ul>
-<li>Напишите свой <code>BeanPostProcessor</code>, который будет печатать сколько времени работал метод аннотированный @Benchmark</li>
+<li>Напишите свой <code>BeanPostProcessor</code>, который будет печатать сколько времени работал метод аннотированный <code>@Benchmark</code></li>
 <li>Аннотация должна находится над классом – и все его методы должны быть завернуты в логику бенчмарка</li>
 <li>А теперь улучшим наш framework. Теперь аннотация должна считываться с метода, а не класса.</li>
 </ul>
