@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="su.dalv.itis.java.spring.task3.ShakespearQuoter" name="shakespearQuoter" scope="prototype">
+        <property name="message" value="2b |!2b"></property>
+    </bean>
+
+    <bean class="su.dalv.itis.java.spring.task3.TerminatorQuoter" name="terminatorQuoter" scope="prototype">
+        <property name="messages">
+            <list>
+                <value>I'll be back</value>
+                <value>Astalavista, baby</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="su.dalv.itis.java.spring.task3.TalkingRobotImpl" init-method="talk" scope="prototype">
+        <property name="quoterList">
+            <list>
+                <ref bean="shakespearQuoter"/>
+                <ref bean="terminatorQuoter"/>
+            </list>
+        </property>
+
+    </bean>
+
+</beans>
