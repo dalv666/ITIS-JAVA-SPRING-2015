@@ -11,7 +11,7 @@
 <li>Написать <code>ObjectFactory</code> c методом <code>createObject()</code></li>
 <li>Метод получает тип класса, и возвращает объект данного типа, но если в этом классе, есть методы, аннотированные <code>@RunThisMethod</code>.<code>ObjectFactory</code> должна из запустить соотвественно значению параметра <code>repeat</code></li>
 </ul>
-######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task1/ObjectFactory.java)
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task1/)
 ###### Задание№2
 
 <ul>
