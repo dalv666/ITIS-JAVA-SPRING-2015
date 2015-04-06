@@ -34,7 +34,6 @@
 <li>Определить метод <code>talk()</code>, как init-method</li>
 <li>В тесте только создавать контекст</li>
 <li>Изменить scope на prototype</li>
-<li>Что то пошло не так</li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task3/)
 ###### Задание№4
