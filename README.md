@@ -11,7 +11,7 @@
 <li>Написать <code>ObjectFactory</code> c методом <code>createObject()</code></li>
 <li>Метод получает тип класса, и возвращает объект данного типа, но если в этом классе, есть методы, аннотированные <code>@RunThisMethod</code>.<code>ObjectFactory</code> должна из запустить соотвественно значению параметра <code>repeat</code></li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task1/ObjectFactory.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task1/ObjectFactory.java)
 ###### Задание№2
 
 <ul>
@@ -26,7 +26,7 @@
   </ul>
 </li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task2/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task2/Test.java)
 ###### Задание№3
 <ul>
 <li>Написать интерфэйс с реализацией <code>TalkingRobot</code>  у которого будет <code>List<Quoter></code> и (прописать метод talk, чтобы он делегировал на все методы quote из всех Quoter-ов)</li>
@@ -36,50 +36,50 @@
 <li>Изменить scope на prototype</li>
 <li>Что то пошло не так</li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task3/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task3/Test.java)
 ###### Задание№4
 <ul>
 <li>Создать бин класса <code>String</code>, внести в него <code>value (“trust me”)</code></li>
 <li>Впрыснуть его в лист цитат терминатора</li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task4/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task4/Test.java)
 
 ###### Задание№5
 <ul>
 <li>Напишите свой <code>BeanPostProcessor</code>, который будет запускать методы аннотированные <code>@RunThisMethod</code></li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task5/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task5/Test.java)
 ###### Задание№6
 <ul>
 <li>Напишите <code>BeanPostProcessor</code> который будет искать кастомную аннотацию <code>@InjectRandomInt</code></li>
 <li>У этой аннотации будут параметры min & max</li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task6/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task6/Test.java)
 ###### Задание№7
 <ul>
 <li>Пишем прокси, который будет замерять время вызова метода</li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task7/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task7/Test.java)
 ###### Задание№8
 <ul>
 <li>Benchmark, который будет замерять время вызова метода с помощью dynamic proxy</li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task8/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task8/Test.java)
 ###### Задание№9
 <ul>
 <li>Напишите свой <code>BeanPostProcessor</code>, который будет печатать сколько времени работал метод аннотированный @Benchmark</li>
 <li>Аннотация должна находится над классом – и все его методы должны быть завернуты в логику бенчмарка</li>
 <li>А теперь улучшим наш framework. Теперь аннотация должна считываться с метода, а не класса.</li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task9/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task9/Test.java)
 ###### Задание№10
 <ul>
 <li>Напишите еще один <code>BeanPostProcessor</code> который будет делать прокси.</li>
 <li>Например которые обворачивает транзакцией все методы бинов, класс которых аннотирован <code>@Transaction</code></li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task10/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task10/Test.java)
 ###### Задание№11
 <ul>
 <li>Прикрутите дополнительный компонент, который будет выводить лог названия всех destroy методов определенных для прототайпов, с предупреждением, что они работать не будет</li>
 </ul>
-[Исходники](/src/main/java/su/dalv/itis/java/spring/task11/Test.java)
+[main](/src/main/java/su/dalv/itis/java/spring/task11/Test.java)
