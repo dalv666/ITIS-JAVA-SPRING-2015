@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="su.dalv.itis.java.spring.task14.Prototype" name="prototype">
+        <property value="proto" name="info"/>
+    </bean>
+
+    <bean class="su.dalv.itis.java.spring.task14.Singleton" name="singleton">
+        <property name="prototype">
+            <ref bean="prototype"></ref>
+        </property>
+    </bean>
+</beans>
