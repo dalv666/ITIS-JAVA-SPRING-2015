@@ -100,7 +100,7 @@
 <ul>
 <li>Напишите FactoryBean для чего нибудь (например, StringBuilder)</li>
 </ul>
-######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task13/)
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/Task13/)
 ###### Задание№14
 <ul>
 <li>Напишите singleton в который впрыснут prototype.
