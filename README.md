@@ -135,6 +135,59 @@
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task17/)
 ###### Задание№18
 <ul>
-<li>Те бин постпроцессоры, которые создают прокси, работают после того, как init methods закончились.</li>
+<li>Напишите свою аннотацию @PostInitialized</li>
+<li>Пропишите свой ContextListener, чтобы он по contextRefreshed, запускал все методы, аннотированные этой аннотацией</li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task18/)
+
+###### Задание№19
+<ul>
+<li>Пишем систему регистраций на эвент</li>
+<li>Модель: Классы для эвента, гостя, заказа, и .т.д</li>
+<li>Сервис: Бизнес методы: зарегистрироваться, посмотреть список гостей</li>
+<li>Репозиторий: Работа с JDBC Template для реализации доступа к данным</li>
+<li>База данных: embedded h2 - compile 'com.h2database:h2:1.4.186'</li>
+</ul>
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task19/)
+
+###### Задание№20
+<ul>
+<li>Сделайте тоже самое, но используя Java Config</li>
+</ul>
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task20/)
+
+###### Задание№21
+<ul>
+<li>Напишите класс Водитель</li>
+<li>Имя не может быть null</li>
+<li>Не пьющий</li>
+<li>Проверьте валидатором объект водителя и распечатайте все ошибки</li>
+</ul>
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task21/)
+
+###### Задание№22
+<ul>
+<li>А теперь напишите Taxi, в который будет впрыскиваться валидный Driver</li>
+<li>Проверьте при помощи валидатора, что Taxi валидный.</li>
+<li>В данном случае это значит, что водитель, который в него впрыснут прошел все проверки</li>
+</ul>
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task22/)
+
+###### Задание№23
+<ul>
+<li>Написать кастомную аннотацию @ValidCredentials</li>
+<li>Которая будет проверять что у объекта логин пароль не длиннее, чем имя</li>
+</ul>
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task23/)
+
+
+###### Задание№24
+<ul>
+Сконфигурируйте проект
+Смэпите простой файл
+
+<li></li>
+<li></li>
+<li></li>
+</ul>
+######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task24/)
