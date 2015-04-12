@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class RepositoryImpl implements Repository {
 
 
-    public void save(String message) {
+    public void save(String message) throws DatabaseRuntimeException {
         throw new DatabaseRuntimeException("Sorry, smth go wrong");
     }
 

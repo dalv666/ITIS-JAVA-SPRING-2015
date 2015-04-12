@@ -11,6 +11,6 @@ public @interface InjectRandomInt {
 
     int min() default 1;
 
-    int max() default 2;
+    int max() default Integer.MAX_VALUE;
 
 }
