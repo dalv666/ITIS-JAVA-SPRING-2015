@@ -135,8 +135,8 @@
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task17/)
 ###### Задание№18
 <ul>
-<li>Напишите свою аннотацию @PostInitialized</li>
-<li>Пропишите свой ContextListener, чтобы он по contextRefreshed, запускал все методы, аннотированные этой аннотацией</li>
+<li>Напишите свою аннотацию <code>@PostInitialized</code></li>
+<li>Пропишите свой <code>ContextListener</code>, чтобы он по <code>contextRefreshed</code>, запускал все методы, аннотированные этой аннотацией</li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task18/)
 
@@ -145,21 +145,21 @@
 <li>Пишем систему регистраций на эвент</li>
 <li>Модель: Классы для эвента, гостя, заказа, и .т.д</li>
 <li>Сервис: Бизнес методы: зарегистрироваться, посмотреть список гостей</li>
-<li>Репозиторий: Работа с JDBC Template для реализации доступа к данным</li>
-<li>База данных: embedded h2 - compile 'com.h2database:h2:1.4.186'</li>
+<li>Репозиторий: Работа с <code>JDBC Template</code> для реализации доступа к данным</li>
+<li>База данных: <code>embedded h2 - compile 'com.h2database:h2:1.4.186'</code></li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task19/)
 
 ###### Задание№20
 <ul>
-<li>Сделайте тоже самое, но используя Java Config</li>
+<li>Сделайте тоже самое, но используя <code>Java Config</code></li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task20/)
 
 ###### Задание№21
 <ul>
 <li>Напишите класс Водитель</li>
-<li>Имя не может быть null</li>
+<li>Имя не может быть <code>null</code></li>
 <li>Не пьющий</li>
 <li>Проверьте валидатором объект водителя и распечатайте все ошибки</li>
 </ul>
@@ -167,15 +167,15 @@
 
 ###### Задание№22
 <ul>
-<li>А теперь напишите Taxi, в который будет впрыскиваться валидный Driver</li>
-<li>Проверьте при помощи валидатора, что Taxi валидный.</li>
+<li>А теперь напишите <code>Taxi</code>, в который будет впрыскиваться валидный <code>Driver</code></li>
+<li>Проверьте при помощи валидатора, что <code>Taxi</code> валидный.</li>
 <li>В данном случае это значит, что водитель, который в него впрыснут прошел все проверки</li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task22/)
 
 ###### Задание№23
 <ul>
-<li>Написать кастомную аннотацию @ValidCredentials</li>
+<li>Написать кастомную аннотацию <code>@ValidCredentials</code></li>
 <li>Которая будет проверять что у объекта логин пароль не длиннее, чем имя</li>
 </ul>
 ######Исходники: [sources](/src/main/java/su/dalv/itis/java/spring/task23/)
@@ -195,22 +195,22 @@
 <li>Также, печатает все header-ы</li>
 
 <li>Напишите хэндлер, который принимает текст и отправляет его обратно</li>
-<li>Напишите хэнлдер, который принимает JSON, делает из него объект, и отправляет обратно JSON-ом.</li>
-<li>А теперь принимает XML а отправляет обратно JSON-ом.</li>
-<li>Напишите тесты с помощью HttpClient</li>
+<li>Напишите хэнлдер, который принимает <code>JSON</code>, делает из него объект, и отправляет обратно <code>JSON-ом</code>.</li>
+<li>А теперь принимает <code>XML</code> а отправляет обратно <code>JSON-ом.</code></li>
+<li>Напишите тесты с помощью <code>HttpClient</code></li>
 
-<li>Переведите все стринговые методы на работу с HttpEntity</li>
-<li>Переведите метод, который создает объект на работу с HttpEntity. Также, пусть он проставляет Location header  и возвращает код 201 (Created).</li>
+<li>Переведите все стринговые методы на работу с <code>HttpEntity</code></li>
+<li>Переведите метод, который создает объект на работу с <code>HttpEntity</code>. Также, пусть он проставляет <code>Location header</code>  и возвращает код <code>201(Created)</code>.</li>
 
-<li>Пропишите SimpleMappingExceptionResolver</li>
+<li>Пропишите <code>SimpleMappingExceptionResolver</code></li>
 <li>Напишите контроллер который кидает исключение, которое вы прописали и проверьте, что маппинг работает</li>
-<li>Реализуйте метод @ExceptionHandler</li>
+<li>Реализуйте метод <code>@ExceptionHandler</code></li>
 
 <li>Создайте класс модели, который мы будем использовать для связки данных</li>
 <li>Наполните его из параметров запроса</li>
-<li>Попробуйте с HTML формой</li>
+<li>Попробуйте с <code>HTML</code> формой</li>
 
-<li>Перепишите форму с этим taglib-ом</li>
+<li>Перепишите форму с этим <code>taglib-ом</code></li>
 <li>Добавьте тэгов ошибок для демонстрации ошибок конверсии</li>
 <li>Добавьте чекбокс</li>
 </ul>
